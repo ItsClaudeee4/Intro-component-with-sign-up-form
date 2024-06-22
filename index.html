@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projet5.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <aside>
+       <h1> Learn to code by watching others </h1> 
+       <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. </p>
+    </aside>
+    <main>
+        <header>
+            <strong> Try it free 7 days</strong> <span>then $20/mo. thereafter</span>
+        </header>
+        <form id="form">
+            <div class="first name">
+            <input  type="text" class="first name" id="first_name" placeholder="First Name">
+            <img src="icon-error.svg" alt="" class="error firstNameError hidden">
+            <p id="empty" class="hidden firstNameEmpty">First Name cannot be empty</p>
+        </div>
+        <div class="last name">
+            <input type="text" class="last name" id="last_name"  placeholder="Last Name">
+            <img src="icon-error.svg" alt="" class="error lastNameError hidden">
+            <p id="empty" class="hidden lastNameempty">Last Name cannot be empty</p>
+        </div>
+        <div class="email name">
+            <input type="email" class="email name" id="email" placeholder="Email Address">
+            <img src="icon-error.svg" alt="" class="error emailError hidden">
+            <p  class="not_email hidden" id="empty">Looks like this is not an email</p>
+        </div>
+        <div class="Password name">
+            <input type="password" class="password name" id="password" placeholder="Password">
+            <img src="icon-error.svg" alt="" class="error passwordError hidden">
+            <p id="empty" class="hidden passwordempty">password cannot be empty</p>
+        </div>
+        <input type="submit" value=" Claim your free trial " id="btn">
+        <p class="help"> By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+    </form>
+   
+    </main>
+
+    <script src="projet5.js"></script>
+</body>
+</html>
